@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coming Soon</title>
+
+<!--EXTERNAL CSS-->
+<link rel="stylesheet" href="css/style.css">
+
+<!--META TAGS-->
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!--FONTAWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet"> 
+</head>
+<!--LOADER<body onload="myFunction()" style="margin:0;">
+<div id="loader"></div>
+<div style="display:none;" id="myDiv" class="animate-bottom">-->
+  
+  
+<body>
+  
+  <style>
+      html {
+scroll-behavior: smooth;
+}
+:root{
+scrollbar-color: rgb(210,210,210) rgb(46,54,69) !important;
+scrollbar-width: thin !important;
+}
+::-webkit-scrollbar {
+height: 12px;
+width: 8px;
+background: #000;
+}
+::-webkit-scrollbar-thumb {
+background: gray;
+-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+::-webkit-scrollbar-corner {
+background: #000;
+}
+    
+  </style>
+  
+  
+  
+<div class="container">
+<section>
+<h1 class="logo"><em> SA's Air pollution tracker .</em></h1>
+<h1>We are currently fixing a bug in this tool.Please Stay tuned!</h1>
+</section>
+</div>
+<!--IF LOADER INCLUDED</div>-->
+
+<!--JAVASCRIPT-->
+<script type="text/javascript" src="js/custom.js"></script> 
+  <script>
+    var myVar;
+
+function myFunction() {
+myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+document.getElementById("loader").style.display = "none";
+document.getElementById("myDiv").style.display = "block";
+}
+  </script>
+</body>
+</html>
